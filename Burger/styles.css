@@ -1,0 +1,140 @@
+body {
+    background-color: #dcddd6;
+}
+
+.local {
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+
+.orders {
+    width: 800px;
+    height: 250px;
+    position: relative;
+}
+
+.kitchen {
+    width: 800px;
+    height: 550px;
+    background-color: #dedede;
+    text-align: center;
+    position: relative;
+}
+
+.ingredient {
+    position: absolute;
+    left: 250px;
+    top: 0px;
+    width: 280px;
+    height: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px;
+    background-color: #cecece;
+    margin: 0;
+    float: center;
+}
+
+.order {
+    width: 165px;
+    margin-right: 20px;
+    height: 230px;
+    background-color: #f1f1f1;
+    float: left;
+    font-family: "Courier Prime";
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.order-2, .order-3, .order-4 {
+    position: absolute;
+    right: 0px;
+}
+
+div.order:last-of-type {
+    margin-right: 0px;
+}
+
+.order-header {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+    height: 30px;
+    color: #fff;
+    background-color: #000;
+    padding-left: 5px;
+}
+
+.order-content {
+    padding-top: 10px;
+}
+
+.order-name {
+    font-weight: bold;
+}
+
+.order-ingredient {
+    margin-left: 10px;
+}
+
+.order-beverage {
+    font-weight: bold;
+}
+
+.order-date {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    letter-spacing: -2px;
+    font-size: 13px;
+}
+
+.ingredient-bun {
+    background-color: orange;
+}
+
+.ingredient-salad {
+    background-color: green;
+}
+
+.ingredient-cheese {
+    background-color: yellow;
+}
+
+.ingredient-jalapeno {
+    background-color: darkgreen;
+}
+
+.ingredient-beef {
+    background-color: brown;
+}
+
+.ingredient-becon {
+    background-color: darkred;
+}
+
+.ingredient-onion {
+    background-color: purple;
+}
+
+.ingredient-tomato {
+    background-color: lightcoral;
+}
+
+.ingredient-mayonnaise {
+    background-color: white;
+}
+
+.ingredient-ketchup {
+    background-color: red;
+}
+
+.ingredient-pickle {
+    background-color: greenyellow;
+}

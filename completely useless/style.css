@@ -1,0 +1,54 @@
+body {
+	margin: auto;
+	color: #dbcdc3;
+}
+
+.background {
+	background-image: url("bg.png");
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #dbcdc3;
+}
+
+.brown {
+	background-color: #44280B;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0.5;
+}
+
+.sentence {
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
+	z-index: 5;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+}
+
+.stopka {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.artistide {
+	color: #7c6b5c;
+	text-decoration: underline;
+}
